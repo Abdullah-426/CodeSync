@@ -138,10 +138,10 @@ function EditorPage() {
         {/* Client panel */}
         <div className="col-md-2 bg-dark text-light d-flex flex-column">
           <img
-            src="/images/codecast.png"
+            src="/images/logo1.png"
             alt="Logo"
             className="img-fluid mx-auto"
-            style={{ maxWidth: "150px", marginTop: "-43px" }}
+            style={{ maxWidth: "300px", marginTop: "-23px", marginBottom: "10px" }}
           />
           <hr style={{ marginTop: "-3rem" }} />
 
@@ -203,9 +203,8 @@ function EditorPage() {
 
       {/* Compiler section */}
       <div
-        className={`bg-dark text-light p-3 ${
-          isCompileWindowOpen ? "d-block" : "d-none"
-        }`}
+        className={`bg-dark text-light p-3 ${isCompileWindowOpen ? "d-block" : "d-none"
+          }`}
         style={{
           position: "fixed",
           bottom: 0,

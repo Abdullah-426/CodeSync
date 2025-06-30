@@ -45,10 +45,10 @@ function Home() {
           <div className="card shadow-sm p-2 mb-5 bg-secondary rounded">
             <div className="card-body text-center bg-dark">
               <img
-                src="/images/codecast.png"
+                src="/images/logo1.png"
                 alt="Logo"
                 className="img-fluid mx-auto d-block"
-                style={{ maxWidth: "150px" }}
+                style={{ maxWidth: "450px" }}
               />
               <h4 className="card-title text-light mb-4">Enter the ROOM ID</h4>
 
