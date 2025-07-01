@@ -7,6 +7,8 @@ const cors = require("cors");
 const axios = require("axios");
 const server = http.createServer(app);
 require("dotenv").config();
+// console.log("JDoodle clientId:", process.env.jDoodle_clientId);
+
 
 const languageConfig = {
   python3: { versionIndex: "3" },
